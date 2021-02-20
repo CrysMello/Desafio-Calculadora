@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items:center;
+  box-sizing: border-box;
+  background:  url("../img/calc.png") no-repeat right top fixed;
+  background-size: cover;
+  
+  }
+h1 {
+  font-size: 40px;
+  color: #061f05;
+  }
+#valor-hora {
+  font-size:x-large;
+  padding: 4px;
+  width: 120px;
+  background-color: rgba(128, 109, 0, 0.349);
+  margin-block: 10px;
+  right: 200px;
+}
+#horas-projeto {
+  margin-top: 10px;
+  padding: 4px;
+  width: 120px;
+  background-color: rgba(128, 109, 0, 0.349);
+}
+
+button {
+  width: 120px;
+  padding: 8px 20px;
+  margin-top: 16px;
+  background-color: #030a20;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.4s;
+  outline: none;
+  color: #f6f6f6;
+}
+
+button:hover {
+  background-color: #ecddf3;
+  color: #aeadc2;
+}
+
+#resposta {
+  color: #020100;
+  font-size: 20px;
+  font-weight: bold;
+}
